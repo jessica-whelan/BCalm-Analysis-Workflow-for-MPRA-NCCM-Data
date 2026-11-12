@@ -1,6 +1,19 @@
 # BCalm-Analysis-Workflow-for-MPRA-NCCM-Data
 This is a script to run the BCalm R package developed by the Kircher Lab. It performs activity analysis, wt-mut differential activity analysis, and visualizations
 
+## Acknowledgments
+
+This analysis workflow uses the BCalm R package developed by Pia Keukeleire, Martin Kircher, and colleagues at the Kircher Lab.
+
+BCalm provides the statistical framework for barcode-level analysis of massively parallel reporter assays. The scripts in this repository implement an application of BCalm to the analysis of non-coding constraint mutations in cancer (NCCMs), including project-specific data processing, experimental group definitions, filtering, differential activity analyses, and visualization.
+
+The original BCalm software and its developers are acknowledged as follows:
+
+- **BCalm GitHub repository:** https://github.com/kircherlab/BCalm
+- **BCalm publication:** Keukeleire et al. (2025), *Using individual barcodes to increase quantification power of massively parallel reporter assays*. BMC Bioinformatics, 26, 52. https://doi.org/10.1186/s12859-025-06065-9
+
+This repository is an independent project-specific analysis workflow and is not an official Kircher Lab repository or an official extension of the BCalm software.
+
 ## Project Overview
 
 This repository contains R scripts for processing, analyzing, and visualizing Massively Parallel Reporter Assay (MPRA) data using BCalm.
