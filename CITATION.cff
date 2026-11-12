@@ -1,0 +1,36 @@
+cff-version: 1.0.0
+message: "If you use this repository in your research, please cite it as follows."
+type: software
+title: "BCalm MPRA Analysis Workflow"
+authors:
+  - family-names: "Whelan"
+    given-names: "Jessica"
+version: "1.0.0"
+date-released: "2026-11-12"
+repository-code: "https://github.com/jessica-whelan/BCalm-Analysis_Workflow-for-MPRA-NCCM-Data"
+license: MIT
+keywords:
+  - MPRA
+  - Massively Parallel Reporter Assay
+  - BCalm
+  - Cancer genomics
+  - Non-coding constraint mutations
+  - Regulatory activity
+abstract: >
+  Project-specific R analysis workflows for processing and analyzing
+  massively parallel reporter assay data using BCalm.
+  Includes data processing, barcode filtering, differential activity
+  analysis, and visualization of wild-type and mutant regulatory
+  sequences.
+references:
+  - type: article
+    authors:
+      - family-names: "Keukeleire"
+        given-names: "Pia"
+      # Add the remaining authors from the publication
+    title: "Using individual barcodes to increase quantification power of massively parallel reporter assays"
+    journal: "BMC Bioinformatics"
+    year: 2025
+    volume: 26
+    article: 52
+    doi: "10.1186/s12859-025-06065-9"
