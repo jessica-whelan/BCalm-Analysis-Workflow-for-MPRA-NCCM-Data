@@ -34,7 +34,6 @@ library(ggplot2)
 ############################################################
 # 1. GLOBAL SETTINGS
 ############################################################
-setwd("/gorilla/proj/pancancer_mpra_2025/pancancer_mpra/jessica_new/BCalm")
 experiment_dirs <- list(
  run_exp_260818 =
  "../MPRAsnakeflow/run_exp_260818",
